@@ -1,0 +1,24 @@
+[package]
+name = "server"
+version = "0.1.0"
+authors = ["Dao Truong Giang <giang.dao@visenze.com>"]
+edition = "2018"
+
+[dependencies]
+rustc-serialize = "*"
+serde_derive = "*"
+nickel = "*"
+serde ="*"
+serde_json = "*"
+plugin = "*"
+typemap = "*"
+argparse = "0.2.2"
+chrono = "*"
+dotenv = "0.15.0"
+dotenv_codegen = "*"
+futures-preview = "=0.3.0-alpha.19"
+tokio = "=0.2.0-alpha.6"
+tokio-threadpool = "0.1.17"
+telegram-bot = { git = 'https://github.com/telegram-rs/telegram-bot' }
+derivative = "1.0.3"
+async-trait = "0.1.21"
